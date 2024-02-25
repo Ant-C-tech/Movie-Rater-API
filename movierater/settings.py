@@ -25,8 +25,8 @@ SECRET_KEY = "django-insecure--d$g%zrls9n93v(-b4so@#h=8=33^bdhmo&ywd#ivlf8@rvgh5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+# Work with Expo Go in a development mode
+ALLOWED_HOSTS = ["192.168.1.76"]
 
 # Application definition
 
@@ -55,9 +55,7 @@ MIDDLEWARE = [
 ]
 
 # The white list of domains that can access the API
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-]
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
 
 ROOT_URLCONF = "movierater.urls"
 
