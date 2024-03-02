@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure--d$g%zrls9n93v(-b4so@#h=8=33^bdhmo&ywd#ivlf8@rvgh5
 DEBUG = True
 
 # Work with Expo Go in a development mode
-ALLOWED_HOSTS = ["192.168.1.76"]
+ALLOWED_HOSTS = ["192.168.1.76", "localhost"]
 
 # Application definition
 
