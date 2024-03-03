@@ -34,6 +34,10 @@ python manage.py runserver 0.0.0.0:8000
 ```bash
 deactivate
 ```
+- Create superuser
+```bash
+python manage.py createsuperuser
+```
 ## Linux. Run the server
 - Open terminal in the project folder and run the following commands to setup the environment and run the server. Make sure you have python installed on your machine. If not, you can download it from [here](https://www.python.org/downloads/);
 - Setup environment
@@ -67,4 +71,8 @@ python3 manage.py runserver 0.0.0.0:8000
 - Deactivate environment
 ```bash
 deactivate
+```
+- Create superuser
+```bash
+python3 manage.py createsuperuser
 ```
